@@ -1,4 +1,4 @@
-# Grey-Cat-Studio-Website
+# Kenneth-And-Studio-Website
 A website for the Video Production Company Kenneth And Studios
 
 Download or clone repo.
