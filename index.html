@@ -22,6 +22,14 @@
 </head>
 <body>
 
+    <div id="video-background">
+        <video autoplay loop muted>
+            <source src="kenvid.mp4" type="video/mp4">
+            <!-- <source src="kenvid.webm" type="video/webm"> -->
+            <!-- Your browser does not support the video tag. -->
+        </video>
+    </div>
+
     <header>
 
         <nav id = "navbar">
@@ -54,6 +62,7 @@
                     <p class="lead">for your brand, business, or social media.</p>
                      
                     <a class="btn" href="about.html">About Kenneth</a>
+                    <br><br><br><br>
 
                 </div>
 
@@ -113,6 +122,21 @@
 
 
     </footer>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            adjustVideoPosition(); // Initial adjustment
+
+            window.addEventListener('resize', adjustVideoPosition); // Adjust on resize
+
+            function adjustVideoPosition() {
+                var navHeight = document.querySelector('#navbar').offsetHeight;
+                var windowHeight = window.innerHeight;
+                document.getElementById('video-background').style.height = windowHeight + 'px';
+                document.getElementById('video-background').style.top = navHeight + 'px';
+            }
+        });
+    </script>
 
 
 </body>
