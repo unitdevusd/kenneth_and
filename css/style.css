@@ -17,6 +17,7 @@ html, body
     margin: 0;
     padding: 0;
     height: 100%;
+    padding-top: 40px;
     
 }
 
@@ -159,6 +160,7 @@ p{
 /* Navbar */
 #navbar
 {
+    position: fixed;
     background: #333;
     color: #fff;
     overflow: auto;
@@ -168,6 +170,7 @@ p{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* Adjust the background color as needed */
     z-index: 1000; /* Ensure it's above other content */
+    
 }
 
 #navbar a{
@@ -202,6 +205,7 @@ p{
     color: #f7c08a;
 
 }
+
 
 
 /* Showcase */
