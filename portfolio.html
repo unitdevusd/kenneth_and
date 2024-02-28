@@ -1,313 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Surreel Feel Productions</title>
+    <link rel="icon" type="image/png" href="/img/kenicon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Welcome to Surreel Feel Productions.">
+    <meta name="keywords" content="video, video editing, production, editing, Surreel Feel">
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Surreel Feel Studios</title>
-  <meta name="title" content="Surreel Feel | Portfolio">
-  <meta name="description" content="Welcome to Surreel Feel Productions.">
+    <script src="https://kit.fontawesome.com/08f4295781.js" crossorigin="anonymous"></script>
 
-  <!-- 
-    - favicon
-  -->
-  <a href="index.html">
-    <link rel="shortcut icon" href="./img/kenicon.png" type="image/svg+xml">
-  </a>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+   
+    <link rel='stylesheet' type='text/css' media="screen and (max-width:768px)" href='css/mobile.css'>
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./css0/require.css">
-  <link rel="stylesheet" href="./css0/pages/portfolio.css">
-
+    <script src='main.js'></script>
 
 </head>
-
 <body>
 
-  <!-- 
-    - #PRELOADER
-  -->
+    <header>
 
-  <!-- <div class="preloader" data-preloader>
-    <div class="preloader-circle"></div>
-  </div> -->
+        <nav class = "navbar" id = "navbar">
+            <div class="container">
 
+                <a href="./index.html" class="logo">
+                    <img src="./img/kenfacenobg.png" width="50" height="50" alt="kenneth_and_home">
+                </a>
 
+                <!--hamburger menu-->
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
 
+                <!-- <h1 class = "logo"><a href="index.html">Surreel Feel Studios</a></h1> -->
+                <div class="the-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a class = "current" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+           </nav>
+     
+    </header>
 
+<br>
+    <section id="portfolio">
 
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="./index.html" class="logo">
-        <img src="./img/kenfacenobg.png" width="50" height="50" alt="kenneth_and_home">
-      </a>
-
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="portfolio.html" class="label-lg navbar-link has-after active">Portfolio</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="./about.html" class="label-lg navbar-link has-after">About</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
-          </li>
-
-        </ul>
-      </nav>
-
-      <!-- <a href="./contact.html" class="btn btn-primary">Contact Now</a> -->
-
-      <!-- <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button> -->
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #PORTFOLIO
-      -->
-
-      <section class="section portfolio" aria-labelledby="portfolio-label">
         <div class="container">
 
-          <h2 class="section-title headline-md text-center" id="portfolio-label">Latest Projects</h2>
+            <h1 class="l-heading"><span class="text-primary">Surreel</span> Portfolio</h1>
 
-          <ul class="portfolio-list">
-
-            <li>
-              <div class="portfolio-card">
-
-                <div> 
-                  <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
-                    alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
-
-                    <iframe width="315" height="560"
-                    src="https://youtube.com/embed/ZvSEPsuxmfU?si=H_QQFiDZksR7V1uU"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                    
-                  <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
-                    <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
-                  <!-- </a> -->
-                </div>
-
-                <div class="card-content">
-
-                  <span class="chip label-md">Sweetandsourdoughh</span>
-
-                  <h3 class="title-md">Pad See Ew Video</h3>
-
-                  <p class="card-text">
-                    Video for Sweetandsourdoughh Youtube cooking channel
-                  </p>
-
-                  <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
-
-                </div>
-
-              </div>
-            </li>
+            <br><br><br>
 
 
+            <main>
+                <article>
+            
+                  <!-- 
+                    - #PORTFOLIO
+                  -->
+            
+                  <section class="section portfolio" aria-labelledby="portfolio-label">
+                    <div class="container">
+            
+                      <h2 class="section-title headline-md text-center" id="portfolio-label">Latest Projects</h2>
+            
+                      <ul class="portfolio-list">
+            
+                        <li>
+                          <div class="portfolio-card">
+            
+                            <div> 
+                              <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
+                                alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
+            
+                                <iframe width="315" height="560"
+                                src="https://youtube.com/embed/ZvSEPsuxmfU?si=H_QQFiDZksR7V1uU"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                                
+                              <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
+                                <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
+                              <!-- </a> -->
+                            </div>
+            
+                            <div class="card-content">
+            
+                              <span class="chip label-md">Sweetandsourdoughh</span>
+            
+                              <h3 class="title-md">Pad See Ew Video</h3>
+            
+                              <p class="card-text">
+                                Video for Sweetandsourdoughh <br> Youtube cooking channel
+                              </p>
+            
+                              <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
+            
+                            </div>
+            
+                          </div>
+                        </li>
+            
+            
+            
+            
+                        <li>
+                          <div class="portfolio-card">
+            
+                            <div> 
+                              <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
+                                alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
+            
+                                <iframe width="560" 
+                                height="315" src="https://www.youtube.com/embed/0aIoSefkHJA?si=z9C_B07Azx4WXnEn" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                              </iframe>                    
+                              <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
+                                <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
+                              <!-- </a> -->
+                            </div>
+            
+                            <div class="card-content">
+            
+                              <span class="chip label-md">Unit</span>
+            
+                              <h3 class="title-md">Unit Session Ad</h3>
+            
+                              <p class="card-text">
+                                Advertisement for Space-Sharing Dance App, Unit Session
+                              </p>
+            
+                              <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
+            
+                            </div>
+            
+                          </div>
+                        </li>
+            
+            
+            
+            
+                        <li>
+                          <div class="portfolio-card">
+            
+                            <div> 
+                              <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
+                                alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
+            
+                                <iframe width="315" height="560"
+                                src=https://www.youtube.com/embed/3B6tP4T4PlA?si=e8v8MLFvyBxIthdz
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                                
+                              <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
+                                <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
+                              <!-- </a> -->
+                            </div>
+            
+                            <div class="card-content">
+            
+                              <span class="chip label-md">Sweetandsourdoughh</span>
+            
+                              <h3 class="title-md">Thai Basil Chicken Video</h3>
+            
+                              <p class="card-text">
+                                Video for Sweetandsourdoughh <br> Youtube cooking channel
+                              </p>
+            
+                              <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
+            
+                            </div>
+            
+                          </div>
+                        </li>
+            
+                            </div>
+            
+                          </div>
+                        </li>
+            
+                      </ul>
+            
+                    </div>
+                  </section>
+            
+                </article>
+              </main>
+            
 
 
-            <li>
-              <div class="portfolio-card">
-
-                <div> 
-                  <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
-                    alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
-
-                    <iframe width="560" 
-                    height="315" src="https://www.youtube.com/embed/0aIoSefkHJA?si=z9C_B07Azx4WXnEn" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
-                  </iframe>                    
-                  <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
-                    <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
-                  <!-- </a> -->
-                </div>
-
-                <div class="card-content">
-
-                  <span class="chip label-md">Unit</span>
-
-                  <h3 class="title-md">Unit Session Ad</h3>
-
-                  <p class="card-text">
-                    Advertisement for Space-Sharing Dance App, Unit Session
-                  </p>
-
-                  <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
-
-                </div>
-
-              </div>
-            </li>
 
 
 
-
-            <li>
-              <div class="portfolio-card">
-
-                <div> 
-                  <!-- <img src="./assets/images/portfolio-1.jpg" width="800" height="540" loading="lazy"
-                    alt="Website Design for Marketing Agency Startup" class="img-cover"> -->
-
-                    <iframe width="315" height="560"
-                    src=https://www.youtube.com/embed/3B6tP4T4PlA?si=e8v8MLFvyBxIthdz
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-                    
-                  <!-- <a href="#" class="btn-icon" aria-label="Book a meeting with Kenneth"> -->
-                    <!-- <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon> -->
-                  <!-- </a> -->
-                </div>
-
-                <div class="card-content">
-
-                  <span class="chip label-md">Sweetandsourdoughh</span>
-
-                  <h3 class="title-md">Thai Basil Chicken Video</h3>
-
-                  <p class="card-text">
-                    Video for Sweetandsourdoughh Youtube cooking channel
-                  </p>
-
-                  <a href="https://calendly.com/surreelfeel/30min" class="btn btn-primary">Book Meeting</a>
-
-                </div>
-
-              </div>
-            </li>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
+          </div>
+          <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[6]='SUBJECT';ftypes[6]='text';fnames[7]='MESSAGE';ftypes[7]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
 
         </div>
-      </section>
 
-    </article>
-  </main>
+    </section>
+<br>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
 
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-    <div class="container">
-
-      <ul class="social-list">
-
-        <li>
-          <a href="img/yt.png" class="social-link">
-            <ion-icon name="logo-youtube"></ion-icon>
-          </a>
-        </li>
-
-        <!-- <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-pinterest"></ion-icon>
-          </a>
-        </li> -->
-
-      </ul>
-
-      <p class="text-center">&copy; 2024 copyright all right reserved</p>
-
-    </div>
-  </footer>
+            <div class="box">
+                <i class="fa-solid fa-location-crosshairs fa-2x"></i>
+                <h3>Location</h3>
+                <p>Santa Clara, California</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-2x"></i>
+                <h3>Phone Number</h3>
+                <p>(408) 813-2921</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-2x"></i>
+                <h3>Email</h3>
+                <p>Kennethand94@gmail.com</p>
+            </div>
+    
 
 
+        </div>
+    </section>
+
+    
+
+    <footer id="main-footer">
+
+        <p>Surreel Feel Studios &copy; 2024, All Rights Reserved</p>
 
 
+    </footer>
 
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+    <script>
+ 
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                var navbar = document.querySelector('.the-nav');
+                navbar.classList.toggle('active');
+            });
+        });
 
-  <!-- 
-    - ionicon
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </script>
 
 </body>
-
 </html>

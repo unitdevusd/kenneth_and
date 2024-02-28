@@ -2,6 +2,16 @@
 Reset
 */
 
+.section-title {
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow for effect */
+}
+
+
 *{
     margin:0;
     padding: 0;
@@ -394,3 +404,92 @@ p{
     color: #fff;
     padding: 20px;
 }
+
+/*importing styles from previous portfolio*
+/* Portfolio Section */
+
+#portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+.portfolio-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-between; /* Align items with space between */
+}
+
+.card-content {
+    flex: 1; /* Let the content flexibly occupy available space */
+    padding: 20px;
+}
+
+.card-content {
+    padding: 20px;
+    width: 50%; /* Set width for text content */
+    white-space: pre-wrap; /* Allow text to wrap */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-end; /* Align items to the start of the column */
+    text-align: right;
+
+}
+
+
+
+.portfolio-card iframe {
+    width: 100%; /* Set width for iframe */
+}
+
+.card-content {
+    padding: 20px;
+    width: 50%; /* Set width for text content */
+}
+
+.chip {
+    display: inline-block;
+    padding: 4px 8px; /* Adjust padding */
+    border-radius: 999px; /* Set border-radius to a large value for a circular shape */
+    background-color: #000; /* Change background color to black */
+    color: #fff; /* Change text color to white */
+    font-size: 14px; /* Set font size */
+    margin-bottom: 10px;
+}
+
+
+.title-md {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #f7c08a;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    color: #fff;
+}
+

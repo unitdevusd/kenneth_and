@@ -1,9 +1,22 @@
+/* #navbar {
+    display: none;
+} */
+
+.the-nav{
+    display: none;
+}
+
+.the-nav.active {
+    display: block;
+}
+
 #navbar .logo{
     
     float: none;
     text-align: center;
 
 }
+
 
 #navbar ul, #navbar ul li
 {
@@ -81,3 +94,24 @@ width: 100%;
     border-bottom: #444 dotted 2px;
 }
 
+@media screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 20px; /* Adjust the position as needed */
+        right: 20px; /* Adjust the position as needed */
+        z-index: 9999; /* Ensure the hamburger icon is on top */
+    }
+    
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        margin: 6px 0;
+        background-color: #fff; /* Adjust the color as needed */
+    }
+    
+
+
+}
+    

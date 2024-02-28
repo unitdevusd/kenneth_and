@@ -20,21 +20,32 @@
 
     <header>
 
-        <nav id = "navbar">
+
+
+        <nav class="navbar" id = "navbar">
             <div class="container">
 
                 <a href="./index.html" class="logo">
                     <img src="./img/kenfacenobg.png" width="50" height="50" alt="kenneth_and_home">
                 </a>
 
+                <!--hamburger menu-->
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
                 <!-- <h1 class = "logo"><a href="index.html">Surreel Feel Studios</a></h1> -->
-
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class = "current" href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                    <!--navigation-->
+                <div class="the-nav" id="theNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a class = "current" href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                    
 
             </div>
            </nav>
@@ -105,6 +116,16 @@
 
     </footer>
 
+    <script>
+ 
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.hamburger').addEventListener('click', function() {
+                var navbar = document.querySelector('.the-nav');
+                navbar.classList.toggle('active');
+            });
+        });
 
+
+    </script>
 </body>
 </html>
