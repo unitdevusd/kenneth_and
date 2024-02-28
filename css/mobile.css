@@ -115,3 +115,21 @@ width: 100%;
 
 }
     
+/* Media query for smaller screens, such as mobile devices */
+@media screen and (max-width: 768px) {
+    .portfolio-card .chip {
+        display:flex;
+        flex-direction: column; /* Change flex direction to stack elements vertically */
+        align-items: center;
+        margin-bottom: 30px; /* Add margin bottom as needed */
+
+    }    
+    .portfolio-card {
+        display:flex;
+        flex-direction: column; /* Change flex direction to stack elements vertically */
+        align-items: center; /* Align items to the center */
+    }
+    .card-content {
+        text-align: center;
+    }
+}

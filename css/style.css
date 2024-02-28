@@ -445,6 +445,7 @@ p{
     flex-direction: column; /* Stack items vertically */
     align-items: flex-end; /* Align items to the start of the column */
     text-align: right;
+    
 
 }
 
