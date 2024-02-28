@@ -88,6 +88,8 @@ p{
 .text-primary
 {
     color: #f7c08a;
+    text-shadow: #000 0px 0px 1.5px;
+
 }
 
 .lead
