@@ -441,13 +441,24 @@ p{
 
 @media screen and (min-width: 769px) {
 
-    .card-content {
-        /* width: 50%; Set width for text content */
-        white-space: pre-wrap; /* Allow text to wrap */
-        display: flex; /* Use flexbox */
-        flex-direction: column; /* Stack items vertically */
+    .card-text {
+        /* text-align: right;  */
+        display:flex;
+        justify-content: flex-end;
         align-items: flex-end;
     }
+
+    /* .card-content {
+        width: 50%; 
+        white-space: pre-wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    } */
+    /* .card-content {
+        padding: 20px;
+        width: 50%; 
+    } */
 }
 
 
@@ -456,10 +467,7 @@ p{
     width: 100%; /* Set width for iframe */
 }
 
-.card-content {
-    padding: 20px;
-    width: 50%; /* Set width for text content */
-}
+
 
 .chip {
     display: inline-block;
@@ -477,9 +485,6 @@ p{
     margin-bottom: 10px;
 }
 
-.card-text {
-    margin-bottom: 20px;
-}
 
 .btn-primary {
     display: inline-block;
