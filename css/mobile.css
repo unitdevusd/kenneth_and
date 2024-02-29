@@ -117,30 +117,30 @@ width: 100%;
     
 /* Media query for smaller screens, such as mobile devices */
 @media screen and (max-width: 768px) {
-    .portfolio-card .chip {
-        display:flex;
-        flex-direction: column; /* Change flex direction to stack elements vertically */
-        align-items: center;
-        margin-bottom: 30px; /* Add margin bottom as needed */
-
-    }    
-    .portfolio-card {
-        display:flex;
-        flex-direction: column; /* Change flex direction to stack elements vertically */
-        align-items: center; /* Align items to the center */
-    }
     .card-content {
-        .card-content {
-            padding: 20px;
-            width: 50%; /* Set width for text content */
-            white-space: pre-wrap; /* Allow text to wrap */
-            display: flex; /* Use flexbox */
-            flex-direction: column; /* Stack items vertically */
-            align-items: center;
-            /* text-align: center; */
-        }
+        padding: 20px;
+        width: 100%; /* Set width to 100% */
+        /* white-space: pre-wrap; */
+        display: flex; /* Use flexbox */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center items vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center text */
+    }
+
+    .portfolio-card {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .portfolio-card iframe {
+        width: 100%; /* Set width for iframe */
+        margin-bottom: 20px; /* Add space between iframe and text */
     }
 }
+
+
+    
 
 #navbar .written-logo {
     text-align: center;
