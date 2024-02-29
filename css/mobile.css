@@ -130,7 +130,15 @@ width: 100%;
         align-items: center; /* Align items to the center */
     }
     .card-content {
-        text-align: center;
+        .card-content {
+            padding: 20px;
+            width: 50%; /* Set width for text content */
+            white-space: pre-wrap; /* Allow text to wrap */
+            display: flex; /* Use flexbox */
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            /* text-align: center; */
+        }
     }
 }
 
