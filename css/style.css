@@ -88,7 +88,7 @@ p{
 .text-primary
 {
     color: #f7c08a;
-    text-shadow: #000 0px 0px 1.5px;
+    text-shadow: #000 0px 0px 7px;
 
 }
 
@@ -496,27 +496,7 @@ p{
     color: #fff;
 }
 
-.testimonial {
+.bold-name{
     display: flex;
-    align-items: flex-start; /* Align items at the top of the container */
-    padding: 20px; /* Add padding */
-}
-
-.testimonial img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.testimonial-content {
-    flex: 1; /* Allow content to take up remaining space */
-}
-
-.testimonial-content p {
-    margin-bottom: 10px; /* Add some bottom margin to the paragraph */
-}
-
-.bold-name {
-    text-align: right; /* Align the name to the right */
+    justify-content: flex-end;
 }
