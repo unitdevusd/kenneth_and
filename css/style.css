@@ -88,7 +88,7 @@ p{
 .text-primary
 {
     color: #f7c08a;
-    text-shadow: #000 0px 0px 7px;
+    text-shadow: #000 0px 0px 3px;
 
 }
 
@@ -224,14 +224,14 @@ p{
 
 #showcase
 {
-    /* background: url('../img/kenbg.jpg') no-repeat center center/cover;
+    /* background: url('../img/bg.jpg') no-repeat center center/cover;
     height: 600px; */
 }
 
 #showcase .showcase-content
 {
     color: #2d2d2d;
-    text-shadow: #000 0px 0px 4px;
+    /* text-shadow: #fff 0px 0px 4px; */
     text-align: center;
     padding-top: 170px;
 
