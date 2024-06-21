@@ -1,6 +1,7 @@
 # Kenneth-And-Studio-Website
-A website for the Video Production Company Surreel Feel Studios
+A website for the Video Production Company The Hulsey Foundation
 
 Download or clone repo.
 Run index.html
-# Surreel Feel
+# The Hulsey Foundation
+# hulsey
