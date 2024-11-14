@@ -87,7 +87,9 @@ p{
 
 .text-primary
 {
-    color: #02A0F6;
+    color: #01f9c6;
+    -webkit-text-stroke-width: 0.35px;
+    -webkit-text-stroke-color: black;
     text-shadow: #000 0px 0px 3px;
 
 }
@@ -110,7 +112,7 @@ p{
 
 
 .btn:hover{
-    background: #02A0F6;
+    background: #01f9c6;
     color: #333;
 }
 
@@ -137,7 +139,7 @@ p{
 .bg-primary
 {
     color: #333;
-    background: #02A0F6;
+    background: #01f9c6;
 }
 
 .clr
@@ -214,7 +216,7 @@ p{
 #navbar ul li a.current
 {
     background: #444;
-    color: #02A0F6;
+    color: #01f9c6;
 
 }
 
@@ -394,7 +396,7 @@ p{
 #contact-form textarea:focus
 {
     outline: none;
-    border-color: #02A0F6;
+    border-color: #01f9c6;
 }
 
 /* Footer */
@@ -488,7 +490,7 @@ p{
 
 .btn-primary {
     display: inline-block;
-    background-color: #02A0F6;
+    background-color: #01f9c6;
     color: #333;
     padding: 10px 20px;
     border-radius: 5px;
