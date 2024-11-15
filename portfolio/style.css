@@ -1385,7 +1385,7 @@ blockquote {
   /* FOOTER*/
 
 footer{
-  background-color:  #fbfbfb;
+  background-color:  #EBEBEB;
   color: #2A2C2B;
   padding:1.5rem;
   display: flex;
@@ -1406,6 +1406,8 @@ footer{
 footer span{
   color:#01F9C6;
   font-style: italic;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 .footer-icons{
