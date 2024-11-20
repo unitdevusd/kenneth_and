@@ -825,6 +825,10 @@ ul#filter li.current a { color: #01F9C6; font-weight: bold; }
     -ms-transition:opacity 4s;
     -o-transition:opacity 4s;
     transition:opacity 4s;
+    a, a:hover, a:visited, a:active {
+      color: inherit;
+      text-decoration: none;
+     }
 }
 
 .img-txt i {
